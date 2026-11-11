@@ -1,0 +1,5 @@
+list1=input("Enter random colors: ")
+list2=input("Enter random colors: ")
+difference=set(list1)-set(list2)
+list3=list(difference)
+print("Difference: ",list3)
